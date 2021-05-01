@@ -1,0 +1,55 @@
+<resources>
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimary</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+
+  <!-- material theme-->
+  <style name="Theme.Transparent" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <item name="android:windowDisablePreview">true</item>
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimary</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+
+  <!-- material style-->
+  <style name="textStyleRegular" parent="Theme.MaterialComponents.Light">
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:lines">1</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textColor">@color/colorBlack</item>
+    <item name="fontFamily">@font/roboto_regular</item>
+    <item name="elevation">1dp</item>
+  </style>
+
+  <!-- material style-->
+  <style name="textStyleCommand" parent="Theme.MaterialComponents.Light">
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:gravity">start</item>
+    <item name="android:textColor">@color/colorWhite</item>
+    <item name="fontFamily">@font/roboto_regular</item>
+    <item name="elevation">1dp</item>
+  </style>
+
+  <!--scrollbars style-->
+
+  <style name="scrollbar_shape_style">
+    <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+    <item name="android:scrollbarStyle">outsideOverlay</item>
+    <item name="android:scrollbars">vertical</item>
+    <item name="android:fadeScrollbars">true</item>
+    <item name="android:scrollbarThumbVertical">@drawable/scrollbar_vertical_thumb</item>
+    <item name="android:scrollbarTrackVertical">@drawable/scrollbar_vertical_track</item>
+    <item name="android:scrollbarSize">16dp</item>
+    <item name="android:scrollbarFadeDuration">2000</item>
+    <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+  </style>
+
+
+</resources>
